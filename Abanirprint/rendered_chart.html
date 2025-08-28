@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Статистика заказов</title>
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #e9eef3;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .glass-card {
+      width: 800px;
+      height: auto;
+      padding: 20px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 25px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06),
+                  -10px -10px 30px rgba(255, 255, 255, 0.6);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+    canvas {
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .color-box {
+      width: 16px;
+      height: 16px;
+      border-radius: 4px;
+    }
+
+    .print { background: #A3D3F7; }
+    .scan { background: #FFCC99; }
+    .scanprint { background: #ADEBBE; }
+  </style>
+</head>
+<body>
+  <div class="glass-card">
+    <h2>Статистика заказов за неделю</h2>
+    <canvas id="ordersChart" width="800" height="400"></canvas>
+    <div class="legend">
+      <div class="legend-item"><div class="color-box scanprint"></div>Скан + печать</div>
+      <div class="legend-item"><div class="color-box scan"></div>Скан</div>
+      <div class="legend-item"><div class="color-box print"></div>Печать</div>
+    </div>
+  </div>
+<script>
+  window.onload = () => {
+    const chartCheck = setInterval(() => {
+      if (window.chart && window.chart._metasets.every(ds => ds._parsed.length > 0)) {
+        clearInterval(chartCheck);
+        // Отменяем анимации, если вдруг остались
+        window.chart.options.animation = false;
+        window.chart.update();
+
+        // Даем чуть времени на прорисовку и СТАВИМ ГОТОВО
+        setTimeout(() => {
+          document.title = "ready";
+        }, 500); // можно больше, если нужно
+      }
+    }, 100);
+  };
+</script>
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('ordersChart').getContext('2d');
+
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["\u041f\u043d", "\u0412\u0442", "\u0421\u0440", "\u0427\u0442", "\u041f\u0442", "\u0421\u0431", "\u0412\u0441"],
+      datasets: [
+        {
+          label: 'Скан + Печать',
+          data: [1, 4, 3, 2, 1, 1, 0],
+          backgroundColor: '#ADEBBE',
+          stack: 'orders'
+        },
+        {
+          label: 'Скан',
+          data: [1, 2, 2, 1, 1, 0, 0],
+          backgroundColor: '#FFCC99',
+          stack: 'orders'
+        },
+        {
+          label: 'Печать',
+          data: [2, 2, 3, 3, 2, 1, 0],
+          backgroundColor: '#A3D3F7',
+          stack: 'orders',
+          borderRadius: { topLeft: 12, topRight: 12 }
+        }
+      ]
+    },
+    animation: false,
+    options: {
+      responsive: false,
+      maintainAspectRatio: false,
+      animation: {
+        duration: 1000, // 1 секунда
+        onComplete: () => {
+          // ✅ Сигналим html2image, что можно делать скрин
+          document.title = "ready";
+        }
+      },
+      layout: {
+        padding: {
+          left: 20,
+          right: 20,
+          top: 30,
+          bottom: 30
+        }
+      },
+      scales: {
+        x: {
+          stacked: true,
+          grid: { display: false }
+        },
+        y: {
+          stacked: true,
+          beginAtZero: true,
+          ticks: { stepSize: 1 },
+          grid: { color: '#dde3ea' }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y}`
+          }
+        }
+      },
+      elements: {
+        bar: {
+          borderSkipped: false
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>

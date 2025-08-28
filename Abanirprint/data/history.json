@@ -1,0 +1,778 @@
+[
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-07-20 21:28:37",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-07-20 21:28:37",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "scan",
+    "datetime": "2025-07-20 22:18:01",
+    "details": {
+      "pages": 1,
+      "mode": "manual",
+      "output": "telegram",
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "scan",
+    "datetime": "2025-07-20 22:43:04",
+    "details": {
+      "pages": 1,
+      "mode": "manual",
+      "output": "telegram",
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "scan",
+    "datetime": "2025-07-20 22:43:58",
+    "details": {
+      "pages": 1,
+      "mode": "auto",
+      "output": "telegram",
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "scan_and_print",
+    "datetime": "2025-07-20 22:47:53",
+    "details": {
+      "pages": 1,
+      "mode": "auto",
+      "output": "print",
+      "cost": 15,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 18:21:14",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-01 18:55:39",
+    "details": {
+      "pages": 2,
+      "copies": 1,
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-01 18:55:39",
+    "details": {
+      "pages": 2,
+      "copies": 1,
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 18:56:24",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 19:02:11",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-01 19:03:46",
+    "details": {
+      "pages": 2,
+      "copies": 1,
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-01 19:03:46",
+    "details": {
+      "pages": 2,
+      "copies": 1,
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 19:04:30",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-01 19:12:21",
+    "details": {
+      "pages": 2,
+      "copies": 1,
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-01 19:12:21",
+    "details": {
+      "pages": 2,
+      "copies": 1,
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 19:13:01",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 19:14:17",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 19:17:46",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 19:49:53",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-01 19:52:01",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 20:43:00",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-02 20:56:41",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-02 20:56:41",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-02 20:58:13",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-02 20:58:13",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 21:01:05",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-02 21:02:11",
+    "details": {
+      "pages": 2,
+      "copies": 1,
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 21:51:55",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 21:54:43",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 21:57:16",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:00:36",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:02:48",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:05:19",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:09:04",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:10:22",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:21:38",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:24:34",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:25:31",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:28:38",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:32:47",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:37:58",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:41:46",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:44:24",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:47:29",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:49:42",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:51:31",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:55:03",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 22:58:14",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 23:02:39",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 23:05:46",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 23:10:08",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 23:16:29",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "scan",
+    "datetime": "2025-08-02 23:30:27",
+    "details": {
+      "pages": 1,
+      "mode": "manual",
+      "output": "telegram",
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "scan",
+    "datetime": "2025-08-02 23:31:43",
+    "details": {
+      "pages": 1,
+      "mode": "manual",
+      "output": "telegram",
+      "cost": 10,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 23:37:37",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-02 23:38:30",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-03 20:40:29",
+    "details": {
+      "pages": 2,
+      "copies": 1,
+      "pages_per_sheet": 4,
+      "page_range": "1-2",
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-03 20:41:55",
+    "details": {
+      "pages": 4,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 20,
+      "error": null
+    }
+  },
+  {
+    "user_id": 7783478163,
+    "action": "print",
+    "datetime": "2025-08-04 16:58:13",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-25 08:34:05",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 5,
+      "error": null
+    }
+  },
+  {
+    "user_id": 1356659444,
+    "action": "print",
+    "datetime": "2025-08-25 08:39:00",
+    "details": {
+      "pages": 1,
+      "copies": 1,
+      "pages_per_sheet": 1,
+      "page_range": "все",
+      "cost": 5,
+      "error": null
+    }
+  }
+]
